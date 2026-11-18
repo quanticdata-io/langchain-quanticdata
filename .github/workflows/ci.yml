@@ -30,7 +30,7 @@ jobs:
           uv run --no-sync ruff format --check .
       - name: Type check
         run: uv run --no-sync mypy
-      - name: Tests (no network: pytest-socket allows loopback only)
+      - name: Tests (no network, pytest-socket allows loopback only)
         run: uv run --no-sync pytest --cov=langchain_quanticdata --cov-report=term
 
   lowest-langchain-core:
