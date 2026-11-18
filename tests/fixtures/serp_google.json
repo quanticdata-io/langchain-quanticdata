@@ -1,0 +1,67 @@
+{
+  "type": "response",
+  "message": "Search results",
+  "payload": {
+    "search_parameters": {
+      "engine": "google",
+      "q": "what is retrieval augmented generation",
+      "search_type": "search",
+      "device": "desktop",
+      "country": "us",
+      "language": "en",
+      "page": 1
+    },
+    "search_metadata": {
+      "status": "Success",
+      "engine": "google",
+      "path": "http",
+      "served_device": "desktop"
+    },
+    "organic": [
+      {
+        "rank": 1,
+        "title": "RAG Explained: How Retrieval-Augmented Generation Works",
+        "link": "https://builder.aws.com/content/rag-explained-how-retrieval-augmented-generation-works",
+        "redirect_link": "https://www.google.com/url?opi=89978449&q=EXAMPLE_TOKEN&sa=U",
+        "display_link": "builder.aws.com › content",
+        "source": "builder.aws.com",
+        "description": "It is a technique that allows an LLM to retrieve relevant information from an external knowledge source and use that information to generate an ...",
+        "date": "Sep 26, 2026"
+      },
+      {
+        "rank": 2,
+        "title": "What is Retrieval Augmented Generation (RAG)? - phData",
+        "link": "https://www.google.com/url?opi=89978449&q=EXAMPLE_TOKEN&sa=U",
+        "redirect_link": "https://www.google.com/url?opi=89978449&q=EXAMPLE_TOKEN&sa=U",
+        "display_link": "www.phdata.io › Blog",
+        "description": "What is Retrieval Augmented Generation? Simply put, RAG is a prompt engineering technique used to enhance the output of a Large Language Model ( ...",
+        "date": "Nov 6, 2023"
+      },
+      {
+        "rank": 3,
+        "title": "RAG (Retrieval-Augmented Generation): what it is and why it matters",
+        "link": "https://www.google.com/url?opi=89978449&q=EXAMPLE_TOKEN&sa=U",
+        "redirect_link": "https://www.google.com/url?opi=89978449&q=EXAMPLE_TOKEN&sa=U",
+        "display_link": "panoply.io › Glossary",
+        "description": "What Are The Benefits And... · Benefits Of Rag",
+        "date": "Sep 23, 2026"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "What is retrieval augmented generation in rag"
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": 3,
+      "available_pages": [
+        1,
+        2,
+        3
+      ],
+      "has_next": true
+    }
+  },
+  "pagination": {}
+}

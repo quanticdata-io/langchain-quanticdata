@@ -1,0 +1,29 @@
+{
+  "type": "response",
+  "message": "URLs discovered",
+  "payload": {
+    "url": "https://books.toscrape.com/",
+    "links": [
+      "https://books.toscrape.com/index.html",
+      "https://books.toscrape.com/catalogue/category/books_1/index.html",
+      "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+      "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html",
+      "https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html"
+    ],
+    "count": 5,
+    "total": 73,
+    "summary": {
+      "/catalogue": 72,
+      "/index.html": 1
+    },
+    "sources": {
+      "sitemap": 0,
+      "homepage": 73
+    },
+    "durationMs": 14563,
+    "geo": {
+      "country": null
+    }
+  },
+  "pagination": {}
+}

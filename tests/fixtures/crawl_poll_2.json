@@ -1,0 +1,35 @@
+{
+  "type": "response",
+  "message": "Crawl status",
+  "payload": {
+    "id": "cr_example01",
+    "status": "completed",
+    "seed": "https://quotes.toscrape.com/",
+    "limit": 3,
+    "depth": 1,
+    "format": "markdown",
+    "pagesCrawled": 3,
+    "pagesQueued": 0,
+    "pages": [
+      {
+        "url": "https://quotes.toscrape.com/login",
+        "status": 200,
+        "title": "Quotes to Scrape",
+        "depth": 1,
+        "content": "# [Quotes to Scrape](https://quotes.toscrape.com/)\n\nUsername\n\nPassword\n"
+      },
+      {
+        "url": "https://quotes.toscrape.com/author/Albert-Einstein",
+        "status": 404,
+        "title": null,
+        "depth": 1,
+        "error": "HTTP 404"
+      }
+    ],
+    "nextCursor": 3,
+    "hasMore": false,
+    "createdAt": 1795009538929,
+    "finishedAt": 1795009551000
+  },
+  "pagination": {}
+}

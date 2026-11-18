@@ -1,0 +1,35 @@
+name: Bug report
+description: A wrong result, an exception or a missing field
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Never paste an API key. Replace it with `qd_live_...`.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options: [QuanticDataSearch, QuanticDataScrape, QuanticDataLoader, QuanticDataSearchRetriever, client]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versions
+      placeholder: langchain-quanticdata 0.1.0, langchain-core 1.x, Python 3.12, Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Code you ran
+      render: python
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened and what you expected
+      description: Include the traceback and, for API errors, the HTTP status and message.
+    validations:
+      required: true
