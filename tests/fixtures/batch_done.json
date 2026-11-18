@@ -1,0 +1,35 @@
+{
+  "type": "response",
+  "message": "Batch status",
+  "payload": {
+    "id": "bt_example01",
+    "status": "completed",
+    "total": 2,
+    "completed": 2,
+    "failed": 0,
+    "contentTruncated": false,
+    "items": [
+      {
+        "url": "https://books.toscrape.com/index.html",
+        "status": 200,
+        "title": "All products | Books to Scrape - Sandbox",
+        "content": "# All products\n\n1000 results.\n",
+        "engine": "tls",
+        "bytes": 31870
+      },
+      {
+        "url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+        "status": 200,
+        "title": "Travel | Books to Scrape - Sandbox",
+        "content": "# Travel\n\n11 results.\n",
+        "engine": "tls",
+        "bytes": 12003
+      }
+    ],
+    "nextCursor": 2,
+    "hasMore": false,
+    "createdAt": 1795009600000,
+    "finishedAt": 1795009606000
+  },
+  "pagination": {}
+}

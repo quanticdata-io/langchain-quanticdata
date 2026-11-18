@@ -1,0 +1,28 @@
+{
+  "type": "response",
+  "message": "Crawl status",
+  "payload": {
+    "id": "cr_example01",
+    "status": "running",
+    "seed": "https://quotes.toscrape.com/",
+    "limit": 3,
+    "depth": 1,
+    "format": "markdown",
+    "pagesCrawled": 1,
+    "pagesQueued": 46,
+    "pages": [
+      {
+        "url": "https://quotes.toscrape.com/",
+        "status": 200,
+        "title": "Quotes to Scrape",
+        "depth": 0,
+        "content": "# [Quotes to Scrape](https://quotes.toscrape.com/)\n\n[Login](https://quotes.toscrape.com/login)\n\n“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.” by Albert Einstein [(about)](https://quotes.toscrape.com/author/Albert-Einstein)\n\nTags:  [change](https://quotes.toscrape.com/tag/change/page/1/) [thinking](https://quotes.toscrape.com/tag/thinking/page/1/)\n"
+      }
+    ],
+    "nextCursor": 1,
+    "hasMore": false,
+    "createdAt": 1795009538929,
+    "finishedAt": null
+  },
+  "pagination": {}
+}

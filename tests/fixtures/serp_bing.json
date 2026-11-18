@@ -1,0 +1,60 @@
+{
+  "type": "response",
+  "message": "Search results",
+  "payload": {
+    "search_parameters": {
+      "engine": "bing",
+      "q": "what is retrieval augmented generation",
+      "search_type": "search",
+      "device": "desktop",
+      "country": "us",
+      "page": 1
+    },
+    "search_metadata": {
+      "status": "Success",
+      "engine": "bing",
+      "path": "http"
+    },
+    "organic": [
+      {
+        "rank": 1,
+        "title": "Retrieval-augmented generation - Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+        "source": "en.wikipedia.org",
+        "description": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new …"
+      },
+      {
+        "rank": 2,
+        "title": "What is Retrieval Augmented Generation (RAG)? | Databricks",
+        "link": "https://www.databricks.com/blog/what-is-retrieval-augmented-generation",
+        "source": "databricks.com",
+        "description": "Retrieval augmented generation is an AI pattern that improves large language model answers by first retrieving relevant documents …"
+      },
+      {
+        "rank": 3,
+        "title": "What is RAG? - Retrieval-Augmented Generation AI Explained - AWS",
+        "link": "https://aws.amazon.com/what-is/retrieval-augmented-generation/",
+        "source": "aws.amazon.com",
+        "description": "Retrieval-Augmented Generation (RAG) is the process of optimizing the output of a large language model, so it references an …"
+      },
+      {
+        "rank": 4,
+        "title": "What is RAG (Retrieval Augmented Generation)? | IBM",
+        "link": "https://www.ibm.com/think/topics/retrieval-augmented-generation",
+        "source": "ibm.com",
+        "description": "Retrieval augmented generation (RAG) is an architecture for optimizing the performance of an artificial intelligence (AI) …",
+        "date": "Oct 2, 2026"
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": 2,
+      "available_pages": [
+        1,
+        2
+      ],
+      "has_next": true
+    }
+  },
+  "pagination": {}
+}

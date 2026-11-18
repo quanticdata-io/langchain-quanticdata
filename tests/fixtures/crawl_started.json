@@ -1,0 +1,10 @@
+{
+  "type": "response",
+  "message": "Crawl started",
+  "payload": {
+    "id": "cr_example01",
+    "status": "running",
+    "statusUrl": "/api/v1/scraper/crawl/cr_example01"
+  },
+  "pagination": {}
+}
