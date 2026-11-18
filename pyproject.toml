@@ -11,7 +11,7 @@ license = "MIT"
 license-files = ["LICENSE"]
 authors = [{ name = "QuanticData", email = "hello@quanticdata.io" }]
 requires-python = ">=3.11"
-dependencies = ["langchain-core>=1.0,<2", "httpx>=0.27,<1"]
+dependencies = ["langchain-core>=1.8.1,<2", "httpx>=0.27,<1"]
 keywords = ["langchain", "web-search", "web-scraping", "document-loader", "retriever", "markdown", "rag", "quanticdata"]
 classifiers = [
   "Development Status :: 4 - Beta",
