@@ -37,7 +37,7 @@ Changelog = "https://github.com/quanticdata-io/langchain-quanticdata/blob/main/C
 
 [dependency-groups]
 dev = [
-  "pytest>=8.3",
+  "pytest>=9.2.0",
   "pytest-asyncio>=0.24",
   "pytest-cov>=5",
   "pytest-socket>=0.7",
