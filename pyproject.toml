@@ -43,7 +43,7 @@ dev = [
   "pytest-socket>=0.7",
   "langchain-tests>=1.0,<2",
   "mypy>=1.13",
-  "ruff>=0.8",
+  "ruff>=0.17.6",
 ]
 
 [tool.hatch.build.targets.wheel]
